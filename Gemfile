@@ -68,3 +68,8 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 # kaminari用Gem
 gem 'kaminari','~> 1.2.1'
+# font awesome用
+gem 'font-awesome-sass', '~> 5.13'
+# bootstrap用
+gem 'bootstrap', '~> 4.5'
+gem 'jquery-rails'

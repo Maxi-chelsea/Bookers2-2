@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Bookers</a>
+    <% if 
+    <ul class="list-group list-group-horizontal">
+      <li class="list-unstyled"><i class="fas fa-home"></i><%= link_to "Home", root_path %></li>
+      <li class="list-unstyled"><i class="fas fa-link"></i><%= link_to "About", about_path %></li>
+      <li class="list-unstyled"><i class="fas fa-user-plus"></i><%= link_to "sign up", new_user_registration_path %></li>
+      <li class="list-unstyled"><i class="fas fa-sign-in-alt"></i><%= link_to "login", new_user_session_path %></li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,29 @@
+
+
+<div class="container">
+  <%= render 'layouts/header' %>
+  <div class="row">
+    <div class="col">
+      <h1>welcome to <i class="fas fa-book"></i><strong>Bookers</strong>  !!</h1>
+      <p class="top-text">
+        In <i class="fas fa-book"></i>Bookers,<br>
+        you can share and exchange your opinions , inpressions , and emotions<br>
+        about various books!
+      </p>
+      <div class="log-in">
+        <%= link_to "Log in", new_user_registration_path %>
+      </div>
+      <div class="sign-up">
+        <%= link_to "Sign Up", new_user_session_path %>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <%= render 'layouts/footer' %>
+    </div>
+  </div>
+</div>
+
+
+
